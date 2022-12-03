@@ -9,7 +9,7 @@ function getDrink(){
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
-            // console.log(data)
+            console.log(data)
         
         document.getElementById('inner2').innerHTML = ''
             
@@ -47,6 +47,7 @@ function getDrink(){
 
                 const ingUl = document.createElement('ul')
                     ingUl.id = `ingList${j}`
+                    ingUl.className = 'ingList'
 
 
                 const dirUl = document.createElement('ul')
@@ -77,7 +78,12 @@ function getDrink(){
                     
                     const li = document.createElement('li');
                     const ul = document.getElementById(`ingList${j}`)
-                    li.textContent = drinkIng[`strIngredient${i}`];
+                    if(!drinkIng[`strMeasure${i}`]){
+                        li.textContent = drinkIng[`strIngredient${i}`]
+                    }else{
+                        li.textContent = drinkIng[`strMeasure${i}`] + `: ` + drinkIng[`strIngredient${i}`];
+                    }
+                    
                     ul.appendChild(li)
                     i++
                 }

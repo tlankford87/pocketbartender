@@ -2734,7 +2734,7 @@ input, select, textarea {
 
 
 		* + .tiles {
-			margin-top: 2em;
+			margin-top: .5em;
 		}
 
 		body.is-preload .tiles article {
@@ -3196,7 +3196,7 @@ ul{
 	list-style: none;
 }
 
-#ingList0 li{
+.ingList li{
 	font-weight: bold;
 }
 
