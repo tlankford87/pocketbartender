@@ -1,30 +1,23 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Pocket Bartender
+
+### A cocktail search tool that provides instructions, measurements, and images for making desired drinks. The tool is fully responsive, built with HTML, CSS, and JavaScript, and uses the CocktailDB API to populate information. This tool makes it easy for anyone to make the perfect drink.
+
+Link to project: https://bartenderbuddy.netlify.app
 
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
 
 
-Credits:
+### Tech used: HTML, CSS, JavaScript
 
-	Demo Images:
-		Unsplash (unsplash.com)
+The tool is fully responsive, built with HTML, CSS, and JavaScript, and uses the CocktailDB API to populate information. This tool makes it easy for anyone to make the perfect drink.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Optimizations
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Implementing small animations for a more polished appearance, creating a list of the most popular drinks when the page loads, and enabling users to create accounts and save their favorite drinks for future reference.
+
+Examples:
+Take a look at these couple examples that I have in my own portfolio:
+
+Portfolio: https://tlankford.netlify.app
+
+Color My World: https://colormyworld.netlify.app
