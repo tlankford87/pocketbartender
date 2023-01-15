@@ -4,8 +4,8 @@
 
 Link to project: https://bartenderbuddy.netlify.app
 
-
-
+![desktop screenshot](screenshots/desktopSS.png)
+![mobile screenshot](screenshots/mobileSS.png)
 
 ### Tech used: HTML, CSS, JavaScript
 
@@ -15,8 +15,7 @@ The tool is fully responsive, built with HTML, CSS, and JavaScript, and uses the
 
 Implementing small animations for a more polished appearance, creating a list of the most popular drinks when the page loads, and enabling users to create accounts and save their favorite drinks for future reference.
 
-Examples:
-Take a look at these couple examples that I have in my own portfolio:
+### Other Projects:
 
 Portfolio: https://tlankford.netlify.app
 
